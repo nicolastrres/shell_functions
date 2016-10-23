@@ -4,7 +4,7 @@ function create_log {
 
   while [[ true ]]; do    
     (( index=$index+1 ))
-    echo $string$index
+    echo $string$index >> /tmp/create_log.txt
   done
 }
 
